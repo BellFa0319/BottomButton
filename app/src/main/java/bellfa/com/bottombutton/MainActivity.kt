@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar?.hide();
 
-
+        
         //
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction().run {
