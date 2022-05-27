@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide();
+// 디벨롭에 올린 소스
 
-        
         //
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction().run {
